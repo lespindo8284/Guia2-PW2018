@@ -11,16 +11,21 @@
 
 	<div class="container">
 		<div class="form__top">
-			<h1>Registro de Alumnos</h1>
+			<h1>Registro de Acudientes</h1>
 		</div>
 		<form class="form__reg" action="">
 						<input class="input" type="text" placeholder="Identificacion" required autofocus>
 						<input class="input" type="text" placeholder="Nombres" required>
-						<input class="input" type="text" placeholder="Apellidos" required>
-						<input class="input" type="text" placeholder="Direccion Origen" required>						
-						<input class="input" type="text" placeholder="Colegio" required>						
-						<input class="input" type="text" placeholder="Identificacion de Acudiente" required>	
-						<input class="input" type="text" placeholder="Horario" required>						
+						<input class="input" type="text" placeholder="Apellidos" required>	
+						<input class="input" type="text" placeholder="Numero de contacto" required>	
+						<br />
+						Relación:<br />
+						<select name="Relacion">
+						   <option value="0">Escoja una opción</option> 
+						   <option value="1">Padre</option> 
+						   <option value="2">Madre</option> 
+						   <option value="3">Otro</option>
+						</select>
             <div class="btn__form">
             	<input class="btn__submit" type="submit" value="Enviar">
             	<input class="btn__reset" type="reset" value="Limpiar">
